@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
+@media all and (max-width: 768px) and (min-width: 480px) {
+  body{
+      font-size: 16px;
+  }
+}
+ 
+@media all and (max-width: 480px) and (min-width: 320px) {
+  body{
+      font-size: 14px;
+  }
+}
+
+.container {
+  padding: 8px;
+}
+
+.container-top, .container-middle, .container-bottom {
+  padding: 16px;
+}
+
+.container-middle, .container-bottom {
+  border-top: 1px solid #e0dbdb;
+}
+
+.tabber {
+  min-width: 400px;
+  max-width: 700px;
+  width: 90%;
+  height: auto;
+  border: 1px solid gray;
+}
+
+.tabs {
+  font-size: 1em;
+}
+
+.tab {
+  display: inline-block;
+  padding: 8px;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  background: #efefef;
+}
+
+.tab.active {
+  border-bottom: 0px;
+  background: none;
+}
+
+.tab.tab-end.active {
+  border-right: 0px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+    font-size: 1em;
+    text-decoration: none;
+    color: #146f8a;
+}
+
+.container-left, .container-right, .content-left, .content-right {
+  width: 45%;
+  padding: 4px;
+  display: inline-block;
+}
+
+.container-left-content {
+  font-family: "Times Roman Medium";
+}
+
+.container-right, .content-right {
+  vertical-align: top;
+}
+
+.container-bottom {
+  padding: 8px;
+  text-align: center;
+}
+
+.title {
+  margin-top: 8px;
+  font-size: 1.1em;
+  font-weight: 500; 
+}
+
+.subtitle {
+  font-family: "Times New Roman";
+  font-weight: 600;
+  color: #146f8a;
+}
+
+.slideshow {
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.property-links {
+  font-size: 1em;
+  color: #146f8a;
+}
+
+.ad-space {
+  margin: 8px 0 8px;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "tabber",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "chai": "^4.0.2",
+    "classnames": "^2.2.5",
+    "enzyme": "^2.8.2",
+    "mocha": "^3.4.2",
+    "react": "^15.5.4",
+    "react-addons-test-utils": "^15.5.1",
+    "react-dom": "^15.5.4",
+    "sinon": "^2.3.2",
+    "sinon-chai": "^2.10.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
