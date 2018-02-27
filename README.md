@@ -18,7 +18,7 @@ iPad:
 
 iPhone 8 Plus:  
 
-![Alt text](iphoneplusIPhone8Plus.png?raw=true "iphone plus image")  
+![Alt text](IPhone8Plus.png?raw=true "iphone plus image")  
 
 Galaxy S5:  
 
