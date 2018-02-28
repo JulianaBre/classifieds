@@ -23,3 +23,4 @@ iPhone 8 Plus:
 Galaxy S5:  
 
 ![Alt text](GalaxyS5.png?raw=true "Galaxy s5 image")  
+
