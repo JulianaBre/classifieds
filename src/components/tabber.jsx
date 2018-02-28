@@ -50,7 +50,7 @@ export default class Tabber extends Component {
   }
   
   /** Function that sets the active tab if changed */
-  setActiveTab(tabRef, event) {
+  setActiveTab(tabRef) {
     if (this.state.activeTab !== tabRef) {
       this.setState({
         activeTab: tabRef

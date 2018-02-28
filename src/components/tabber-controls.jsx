@@ -18,8 +18,8 @@ export default class Controls extends Component {
     const self = this;
     return cloneElement(tab, {
       ref: count,
-      handleControlClick: event => {
-        self.props.setActiveTab(count, event);
+      handleControlClick: () => {
+        self.props.setActiveTab(count);
       },
       isActive: count === activeTab,
       activeTabClass
